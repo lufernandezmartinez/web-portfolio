@@ -3,7 +3,8 @@
 My portfolio code
 
 ## Version History
-
+* 1.2
+    * Added cool looking effect. Link in Aknowledgments!
 * 1.1
     * Updated the whole page. Posted for phone testing
 * 1.0
