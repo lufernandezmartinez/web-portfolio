@@ -5,7 +5,7 @@ My portfolio code
 ## Version History
 
 * 1.1
-    * Updated the whole page.
+    * Updated the whole page. Posted for phone testing
 * 1.0
     * Initial Release. A lot of work to do
 
@@ -16,3 +16,4 @@ This project is licensed under the MIT License.
 ## Acknowledgments
 * [Font](https://www.1001fonts.com/users/daltonmaag/)
 * [Readme Template](https://gist.github.com/DomPizzie)
+* [CRT Effect](https://aleclownes.com/2017/02/01/crt-display.html)

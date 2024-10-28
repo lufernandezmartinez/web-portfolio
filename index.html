@@ -8,6 +8,7 @@
 
 <script src="script.js"></script>
 <body>
+    <div id="wrapper" class="crt">
     <div class="crt-green title">
         <pre>
              __          _         ______                  __            __              __  ___           __  _               
@@ -51,25 +52,32 @@
 @@@@@@@@@@@@@&@@@@&&@@&@@&&@&@&&&@@@@@@//&&&@@@@&&&&@@&&&&&%&&%&&%%%@&%&&&@&%%&@
             </pre>
         </div>
-    <div class="crt-green column">
-        <a>> Developer</a>
+    <div class="crt-green column" id="column2">
+        <a>Fullstack developer</a>
+        <p>> Working mainly in both Java & Php</p>
+        <a href="#console-scrollback">> My links</a>
+        <p> WIP. Please be patient...</p>
     </div>
     </div>
     <br>
     <div class="crt-green content">
         
     </div>
-</body>
-<nav class="footer crt-green">
+<nav class="footer crt-green crt">
     <div id="console-scrollback"></div>
     <a>[lufernandez@t440 ~]$<input type="text" id="type-console" class="text-input-invisible crt-green" name="console"></a>
 </nav>
+</div>
+</body>
 <script>
     const input = document.getElementById('type-console');
     input.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
         console_send();
     }
+});
+window.addEventListener("load", function() {
+    main();
 });
 </script>
 </html>

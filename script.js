@@ -10,3 +10,7 @@ function console_send(){
     document.getElementById('console-scrollback').appendChild(textSent);
     input.value = "";
 }
+
+function main(){
+    // Main function, executes himself when everything is loaded up
+}
