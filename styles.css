@@ -191,7 +191,7 @@ body{
   }
   .crt::after {
     content: " ";
-    display: block;
+    display:contents;
     position: absolute;
     top: 0;
     left: 0;
@@ -207,7 +207,7 @@ body{
   /* THANKS ALECLOWNES -> https://aleclownes.com/2017/02/01/crt-display.html */
   .crt::before {
     content: " ";
-    display: block;
+    display: contents;
     position: absolute;
     top: 0;
     left: 0;
