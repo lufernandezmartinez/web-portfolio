@@ -1,78 +1,42 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #b5b8a8;
-    color: #333;
+/* CUSTOM COLORS */
+:root{
+    --crt-green:#20C20E;
 }
 
-header {
-    background-color: #6e562a;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
+/* CUSTOM FONTS */
+@font-face {
+    font-family: 'Ubuntu-R';
+    src: url('res/fonts/Ubuntu-R.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
+body{
+    background-color: #000;
 }
+.crt-green{
+    color:var(--crt-green);
+    font-family:"Ubuntu-R";
+}
+.content{
+    margin-left:1%
+}
+.container {
+    margin-left: 1%;
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;              
+  }
 
-header p {
-    margin: 10px 0 0;
-    font-size: 1.2em;
+.footer{
+    margin-left: 1%;
 }
-.user-photo{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-.social-links a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.social-links a:hover {
-    text-decoration: underline;
-}
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
-}
-
-section {
-    margin-bottom: 40px;
-}
-
-section h2 {
-    border-bottom: 2px solid #35424a;
-    padding-bottom: 10px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    background-color: #ffffff;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #35424a;
-    color: #ffffff;
-}
-
-footer p {
-    margin: 0;
+.text-input-invisible{
+    border: none;         
+    background: none;     
+    outline: none;
+    width: 80%;
+    font: inherit;
 }
